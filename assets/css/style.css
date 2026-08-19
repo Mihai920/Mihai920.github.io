@@ -1,11 +1,6 @@
 /* ===== GENERAL ===== */
 
-.profile-photo {
-    width: 220px;
-    height: 280px;
-    object-fit: cover;
-    border-radius: 6px;
-}
+
 
 * {
     margin: 0;
@@ -113,4 +108,10 @@ footer {
         margin:12px 0;
     }
 
+}
+.profile-photo {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 6px;
 }
