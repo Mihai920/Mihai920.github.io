@@ -109,12 +109,7 @@ footer {
     }
 
 }
-.profile-photo {
-    width: 220px;
-    height: 280px;
-    object-fit: cover;
-    border-radius: 6px;
-}
+/* ===== PROFILE ===== */
 
 .profile {
     display: flex;
@@ -143,4 +138,19 @@ footer {
 .profile-info .subtitle {
     margin: 0;
     line-height: 1.6;
+}
+
+/* ===== MOBILE PROFILE ===== */
+
+@media (max-width: 700px) {
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        text-align: center;
+    }
+
 }
