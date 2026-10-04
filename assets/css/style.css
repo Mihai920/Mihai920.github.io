@@ -155,3 +155,33 @@ footer {
     }
 
 }
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Source Serif 4', serif;
+
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(76, 130, 91, 0.12),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            rgba(76, 130, 91, 0.10),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #f4f8f4,
+            #e5f1e8
+        );
+
+    color: #26352c;
+    min-height: 100vh;
+}
+
+
